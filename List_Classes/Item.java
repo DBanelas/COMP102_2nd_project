@@ -1,0 +1,15 @@
+package PLH102_LAB_09.src.tuc.ece.cs102.list;
+
+public abstract class Item {
+	
+	abstract public boolean equals(Item k);
+
+	abstract public boolean less(Item k);
+
+	abstract public Object key();
+
+	abstract public void print();
+	
+	abstract public Object getData();
+	
+}
